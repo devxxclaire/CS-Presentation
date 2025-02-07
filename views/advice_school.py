@@ -1,10 +1,6 @@
 import streamlit as st
-import plotly.express as px
 
 
-
-def get_numeric_value(percentage_str):
-    return int(percentage_str.replace('%', ''))
 
 st.title("Advice for School")
 
